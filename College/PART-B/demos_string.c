@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 void main () {
-    char str1[20] = "Peopletree",str2[20] = "BCA";
+    char str1[20] = "BIMS",str2[20] = "BCA";
      printf("Length of string %s is: %ld\n",str1,strlen(str1));
      printf("Length of string %s is: %ld\n",str2,strlen(str2));
      printf("First string after concatenation: %s\n", strcat(str1,str2));
