@@ -8,7 +8,7 @@ void main () {
     if (d > 0)
     {
         r1 = -b + sqrt (d) / (2 * a);
-        r2 = -b + sqrt (d) / (2 * a);
+        r2 = -b - sqrt (d) / (2 * a);
         printf("The real roots = %f %f",r1,r2);
     }
     else if (d == 0)
